@@ -1,0 +1,211 @@
+* 
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+    background: #ff416c;
+}
+.front{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#ff416c; 
+    color: #e7e7e7;
+    display: none;
+    
+    
+  
+
+}
+
+
+.quiz{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff416c; 
+    color: #e7e7e7;
+    display: none;
+
+    
+  
+
+}
+.quizbutton{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff416c; 
+    color: #e7e7e7;
+    
+    
+  
+
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff; 
+
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff; 
+}
+
+.h3{
+    background-color: rgb(252, 243, 243);
+}
+.p {
+    text-align: center;
+
+}
+
+
+.phone {
+    position: relative;
+    margin: 4% auto;
+    width: 400px;
+    height: 700px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    display: none;
+}
+
+.header {
+    position: relative;
+    padding: 25px;
+    width: 100%;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #ffffff;
+    line-height: 28px !important;
+}
+
+.removeText {
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 4px 15px;
+    display: inline;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+.todo-body {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.todo-body::-webkit-scrollbar {
+    background: transparent;
+    width: 1px;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-list .todo-item {
+    padding: 20px;
+    border-bottom: 1px solid #e7e7e7;
+    color: #717171;
+}
+
+.todo-item.checked {
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.todoInput {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
